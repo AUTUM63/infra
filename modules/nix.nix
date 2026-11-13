@@ -1,4 +1,4 @@
 { ... }:
 {
- nix.setting.trusted-users = [ "admin" ];
+ nix.settings.trusted-users = [ "admin" ];
 }
