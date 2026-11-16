@@ -10,6 +10,8 @@
     ./modules/docker.nix
     ./modules/swap.nix   
     ./modules/nix.nix
+    ./modules/proxy.nix
+    ./modules/site.nix
  # virtio_scsi/virtio_blk etc. in the initrd so the image boots on Proxmox.
     "${modulesPath}/profiles/qemu-guest.nix"
   ];
